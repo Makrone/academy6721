@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 public class RegExDemo2 {
 
 	public static void main(String[] args) {
-		String text = "абв abc    123        _-+!      -+=     13 ёёё ййй ьъ";
+		String text = "абв abc    123        _-+!      -+=     13 ёёё йййп ьъ";
 		String[] arr = text.split("[\\s]+");
 
 		System.out.println(Arrays.toString(arr));
